@@ -5,7 +5,7 @@ int main(){
     int n;
     cout<<"Enter any number :"<<endl;
     cin>>n;
-    if(n==4 && n==11){
+    if(n%5==0 && n%11==0){
         cout<<"THe given number is Multiple of 5 and 11"<<endl;
     }
     else{
