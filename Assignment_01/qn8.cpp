@@ -10,7 +10,7 @@ void total_marks_and_percentage(int m1,int m2,int m3,int m4,int m5){
 
     double percentage=0;
     int total_sub=5;
-    percentage=(t_marks/total_sub);
+    percentage=((float)t_marks/total_sub);
 
     cout<<"Percentage :"<<percentage<<"%"<<endl;
 }
